@@ -1,6 +1,6 @@
-# 🌪️ SOVEREIGN TENSOR-VORTEX v3.0
+# 🌪️ SOVEREIGN TENSOR-VORTEX
 
-*The Silicon Valley Mathematical Trading Titan.*
+*The  Mathematical Trading Titan.*
 
 ---
 

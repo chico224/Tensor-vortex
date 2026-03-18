@@ -1,4 +1,4 @@
-# 🌪️ TENSOR-VORTEX v3.0
+# 🌪️ TENSOR-VORTEX v0.1
 
 *The Mathematical Trading Titan.*
 

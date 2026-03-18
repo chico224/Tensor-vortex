@@ -1,0 +1,27 @@
+# Configuration Utilisateur (SaaS - Hyper-Scale)
+# Modifiez ce fichier pour vos clients, aucune connaissance en code requise !
+
+# Connexion MetaTrader 5 (Optionnel si Master-Worker Mode = Worker)
+account:
+  login: 5047684981
+  server: MetaQuotes-Demo
+  password: S2aXs9Di
+
+# Parametres de Trading (Interface Cliente Intuitive)
+trading_rules:
+  risk_per_trade_percent: 1.0  # Pourcentage du capital risque
+  max_trades_per_day_normal: 200 # Limite par symbole
+  max_trades_per_day_sniper: 10  # Limite de survie extreme
+  trade_markets:
+    - EURUSD
+    - XAUUSD
+    - USDJPY
+
+# Architecture Systeme (Silicon Valley Mode)
+cluster:
+  # 'master' : Calcule les mathématiques et diffuse (exige CPU/RAM)
+  # 'worker' : Reçoit les signaux et clone les trades (1MB de RAM suffisent)
+  node_role: master
+  
+  # Si 'worker', mettez l'IP du Master ici (ex: tcp://192.168.1.50:5555)
+  master_ip_address: local

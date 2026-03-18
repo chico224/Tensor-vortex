@@ -1,0 +1,4 @@
+2026-03-12 17:52:36,125 - StrategyParser - INFO - Analyse terminée : 346 stratégies détectées.
+2026-03-12 17:52:36,125 - Experts - INFO - Injection dynamique de 346 stratégies clés en main.
+2026-03-12 17:53:30,835 - MT5_Connectivity - ERROR - Echec critique de l'initialisation MT5. Assurez-vous que le terminal est OUVERT. Erreur: (-6, 'Terminal: Authorization failed')
+2026-03-12 17:53:30,840 - MainControl - ERROR - Échec de connexion initiale. Arrêt.

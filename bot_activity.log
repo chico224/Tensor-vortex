@@ -1,0 +1,24 @@
+2026-03-07 13:39:24,829 - Simulator - INFO - --- DÉMARRAGE SIMULATION SUR XAUUSD (Marché Virtuel) ---
+2026-03-08 02:05:16,574 - Simulator - INFO - --- DÉMARRAGE SIMULATION SUR XAUUSD (Marché Virtuel) ---
+2026-03-08 02:12:19,958 - Simulator - INFO - --- DÉMARRAGE SIMULATION SUR XAUUSD (Marché Virtuel) ---
+2026-03-09 19:48:36,070 - StrategyParser - INFO - Analyse terminée : 346 stratégies détectées.
+2026-03-09 19:48:36,081 - Experts - INFO - Injection dynamique de 346 stratégies clés en main.
+2026-03-09 19:50:42,582 - MainControl - ERROR - Échec de connexion initiale. Arrêt.
+2026-03-09 19:55:10,139 - StrategyParser - INFO - Analyse terminée : 346 stratégies détectées.
+2026-03-09 19:55:10,142 - Experts - INFO - Injection dynamique de 346 stratégies clés en main.
+2026-03-09 19:55:22,147 - MainControl - ERROR - Échec de connexion initiale. Arrêt.
+2026-03-10 03:40:35,074 - StrategyParser - INFO - Analyse terminée : 346 stratégies détectées.
+2026-03-10 03:40:35,202 - Experts - INFO - Injection dynamique de 346 stratégies clés en main.
+2026-03-10 03:41:06,676 - MT5_Connectivity - ERROR - Echec critique de l'initialisation MT5. Assurez-vous que le terminal est OUVERT. Erreur: (-6, 'Terminal: Authorization failed')
+2026-03-10 03:41:06,677 - MainControl - ERROR - Échec de connexion initiale. Arrêt.
+2026-03-12 17:52:36,125 - StrategyParser - INFO - Analyse terminée : 346 stratégies détectées.
+2026-03-12 17:52:36,125 - Experts - INFO - Injection dynamique de 346 stratégies clés en main.
+2026-03-12 17:53:30,835 - MT5_Connectivity - ERROR - Echec critique de l'initialisation MT5. Assurez-vous que le terminal est OUVERT. Erreur: (-6, 'Terminal: Authorization failed')
+2026-03-12 17:53:30,840 - MainControl - ERROR - Échec de connexion initiale. Arrêt.
+2026-03-13 01:01:21,681 - UltraLight - INFO - Optimisation du processus Python pour priorité HAUTE.
+2026-03-13 14:52:24,617 - UltraLight - INFO - Optimisation du processus Python pour priorité HAUTE.
+2026-03-13 14:52:24,621 - UltraLight - INFO - Configuration minimale creee : C:\Users\hp\.gemini\antigravity\scratch\mt5_trading_bot\data\min_config.ini
+2026-03-13 14:52:25,168 - UltraLight - INFO - Terminal MT5 lance en mode Invisible/Minimise.
+2026-03-13 14:52:25,171 - UltraLightLauncher - INFO - Attente de 10 secondes pour l'initialisation du terminal...
+2026-03-13 14:53:05,510 - MT5_Connectivity - ERROR - Echec critique de l'initialisation MT5. Assurez-vous que le terminal est OUVERT. Erreur: (-6, 'Terminal: Authorization failed')
+2026-03-13 14:53:05,510 - UltraLightLauncher - ERROR - Echec de connexion aux serveurs de trading.

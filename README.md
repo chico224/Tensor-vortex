@@ -400,7 +400,7 @@ Le dossier `logs/` contient la mémoire de l'IA :
 
 ## ⚠️ Avertissement Légal & Raisonnement (Disclaimer)
 
-**Tensor-Vortex v3.0** est un outil de recherche quantitative et d'analyse algorithmique. Bien que le bot soit conçu via des modèles mathématiques de niveau institutionnel (HFT, Recuit Quantique, Stat-Arb), les marchés financiers demeurent fondamentalement chaotiques et imprévisibles.
+**Tensor-Vortex v0.1** est un outil de recherche quantitative et d'analyse algorithmique. Bien que le bot soit conçu via des modèles mathématiques de niveau institutionnel (HFT, Recuit Quantique, Stat-Arb), les marchés financiers demeurent fondamentalement chaotiques et imprévisibles.
 
 - **Absence de Certitude Algorithmique :** Les performances passées, simulées ou backtestées par cette matrice mathématique ne garantissent en rien la rentabilité future.
 - **Risque Critique de Perte en Capital :** Le système traite les devises globales (Forex, CFD). La spéculation comporte des dangers absolus, pouvant entraîner la vaporisation totale d'un compte (Marging Call), en particulier lors de chocs systémiques imprévus.

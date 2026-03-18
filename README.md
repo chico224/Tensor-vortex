@@ -1,12 +1,12 @@
-# 🌪️ SOVEREIGN TENSOR-VORTEX v3.0
+# 🌪️ TENSOR-VORTEX v3.0
 
-*The Silicon Valley Mathematical Trading Titan.*
+*The Mathematical Trading Titan.*
 
 ---
 
 ## 🚀 Qu'est-ce que Tensor-Vortex ?
 
-**Sovereign Tensor-Vortex v3.0** est un moteur de trading quantitatif haute-fréquence conçu pour MetaTrader 5, bâti de A à Z selon les standards technologiques algorithmiques de la Silicon Valley.
+**Sovereign Tensor-Vortex v3.0** est un moteur de trading quantitatif haute-fréquence conçu pour MetaTrader 5, bâti de A à Z selon les standards technologiques algorithmiques .
 
 Chaque ligne de code, de l'architecture réseau (*ZeroMQ*) jusqu'au moteur de parsing mathématique de la mémoire RAM, est conçue pour purger l'émotion humaine des marchés financiers. 
 
@@ -211,21 +211,21 @@ Ce schéma isole la logique milliseconde de notre algorithme HFT, capable de dé
 
 ```mermaid
 flowchart TD
-    Tick["📡 Flux de Ticks (Asynchrone)"] --> StreamQueue(["File d'attente Tick Buffer"])
-    StreamQueue --> Derivate1{"📈 Dérivée d(Price)"}
-    StreamQueue --> Derivate2{"🚀 Dérivée d²(Price)"}
+    Tick["Flux de Ticks (Asynchrone)"] --> Queue["Tick Buffer"]
+    Queue --> Derivate1["Derivee d(Price)"]
+    Queue --> Derivate2["Derivee d2(Price)"]
     
-    Derivate1 -->|Calcul Vélocité : v(t)| Calc(["Moteur de Calcul C++ / CuPy"])
-    Derivate2 -->|Calcul Accélération : a(t)| Calc
+    Derivate1 -- "Calcul Velocite : v(t)" --> Calculation["Moteur de Calcul C++ / CuPy"]
+    Derivate2 -- "Calcul Acceleration : a(t)" --> Calculation
     
-    Calc --> Eval{Évaluation Vectorielle}
-    Eval -->|v(t) > 0 & a(t) < 0| Exhaustion(["Alerte d'Épuisement"])
-    Eval -->|v(t) < 0 & a(t) > 0| Spring(["Alerte de Rebond"])
-    Eval -->|v(t) Constant| Noise(["Traitement comme Bruit"])
+    Calculation --> Evaluation["Evaluation Vectorielle"]
+    Evaluation -- "v(t) > 0 & a(t) < 0" --> Exh["Alerte Epuisement"]
+    Evaluation -- "v(t) < 0 & a(t) > 0" --> Spr["Alerte Rebond"]
+    Evaluation -- "v(t) Constant" --> Noise["Bruit"]
     
-    Exhaustion --> Signal(["Signal Vente Anti-Mouton"])
-    Spring --> Signal(["Signal Achat Fond de Panier"])
-    Signal --> ConsensusEngine(["Envoi au Filtre d'Unanimité"])
+    Exh --> Signal["Signal Vente Anti-Mouton"]
+    Spr --> Signal["Signal Achat Fond de Panier"]
+    Signal --> Consensus["Filtre d'Unanimite"]
 ```
 
 ### 4. Le Cycle de Survie : Auto-Healing et Mutation Génétique
@@ -309,7 +309,7 @@ L'administration de Tensor-Vortex sur un VPS est entièrement textuelle pour éc
 
 | Commande Bash | Description et Utilisation |
 |---|---|
-| `git clone [url]` | Importe le dépôt Tensor-Vortex sur le serveur VPS hôte. |
+| `git clone https://github.com/chico224/Tensor-vortex.git` | Importe le dépôt Tensor-Vortex sur le serveur VPS hôte. |
 | `python -m venv venv` | Isoler l'espace de travail. Crée un environnement virtuel sécurisé pour empêcher les conflits avec le système d'exploitation Windows/Linux. |
 | `pip install -r requirements.txt`| Télécharge et compile les paquets mathématiques lourds (`pandas`, `numpy`, bibliothèques ZMQ, etc.) requis par l'IA. |
 | `python scripts/test_tensor_vortex.py` | **Commande de Diagnostic.** À lancer obligatoirement avant le trading réel. Vérifie si le VPS possède un GPU Nvidia pour `CuPy`, teste la compilation des AST et valide les 110 stratégies. |
@@ -326,8 +326,8 @@ La plupart des clients et des serveurs VPS MT5 standards tournent sous Windows S
 
 ```powershell
 # 1. Cloner le Projet
-git clone https://github.com/votre_nom/tensor-vortex.git
-cd tensor-vortex
+git clone https://github.com/chico224/Tensor-vortex.git
+cd Tensor-vortex
 
 # 2. Création et activation de l'Environnement Virtuel (Isolation)
 python -m venv venv
@@ -351,8 +351,8 @@ Les serveurs haute fréquence performants (Kali Linux, Ubuntu) nécessitent une 
 ```bash
 # 1. Cloner le Projet et MàJ du système
 sudo apt update && sudo apt install python3.11-venv git -y
-git clone https://github.com/votre_nom/tensor-vortex.git
-cd tensor-vortex
+git clone https://github.com/chico224/Tensor-vortex.git
+cd Tensor-vortex
 
 # 2. Création et activation du VENV
 python3 -m venv venv
@@ -408,7 +408,8 @@ Le dossier `logs/` contient la mémoire de l'IA :
 - **Décharge Totale de Responsabilité :** Le Créateur Originel ("Chico" / Développeurs), ainsi que toute personne modifiant ce code source (*Fork*), déclinent officiellement toute forme explicite ou implicite de responsabilité vis-à-vis des éventuelles pertes financières, dommages collatéraux ou conséquences de l'utilisation de Tensor-Vortex. Le logiciel est proposé "tel quel", comme un dispositif éducatif et informatique mathématique brut.
 - En exécutant `ultra_light_launch.py`, l'Opérateur (Vous) acccepte ces termes et certifie en assumer l'entière, stricte et exclusive responsabilité vis-à-vis du code, du broker et des régulateurs mondiaux.
 
----
+--- La Guinée conackry regorge aussi de talent 🚀🧠
 
 > _"Dans les marchés contemporains, la latence est fatale, et le sentiment crée le bruit. Seules les mathématiques subsistent."_  
 **— Commandant Chico**
+ K
